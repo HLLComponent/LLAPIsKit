@@ -1,9 +1,9 @@
 {
   "name": "LLAPIsKit",
-  "version": "0.1.0",
-  "summary": "A short description of LLAPIsKit.",
+  "version": "1",
+  "summary": "LLAPIsKit api 处理.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wawahuhu/LLAPIsKit",
+  "homepage": "https://github.com/HLLComponent/LLAPIsKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,19 @@
     "wawahuhu": "huuuu1016@gmail.com"
   },
   "source": {
-    "git": "https://github.com/wawahuhu/LLAPIsKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/HLLComponent/LLAPIsKit.git",
+    "tag": "1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "LLAPIsKit/Classes/**/*"
+  "source_files": "LLAPIsKit/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "LLToolsKit": [
+      "~> 1"
+    ]
+  }
 }
